@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-purple-brand: #5200d9;
+  --color-purple-brand-dark: #4400b3;
+  --color-dark-bg: #2b2b2b;
+  --font-sans: "Inter", -apple-system, "Segoe UI", sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-dark-bg);
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+}

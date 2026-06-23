@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>trip страхование — Страхование путешественников</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page">
+    <p class="breadcrumb">Главная</p>
+
+    <section class="hero">
+      <!-- Навигация -->
+      <header class="navbar">
+        <a href="#" class="logo">
+          <img src="images/tick-icon.svg" alt="" class="logo__tick" />
+          <span class="logo__text"><span class="logo__accent">trip</span> страхование</span>
+        </a>
+
+        <nav class="nav">
+          <a href="#" class="nav__link nav__link--dropdown">
+            Продукты
+            <svg class="nav__caret" width="10" height="6" viewBox="0 0 10 6" fill="none">
+              <path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <a href="#" class="nav__link">Отзывы</a>
+          <a href="#" class="nav__link">Партнерам</a>
+        </nav>
+
+        <a href="#" class="btn-discount">
+          <img src="images/message-icon.svg" alt="" class="btn-discount__icon" />
+          Скидки
+        </a>
+      </header>
+
+      <!-- Контент hero -->
+      <div class="hero__content">
+        <h1 class="hero__title">Страхование путешественников</h1>
+        <p class="hero__subtitle">Полис, который действительно работает</p>
+
+        <form class="search">
+          <div class="search__field search__field--place">
+            <input type="text" class="search__input" placeholder="Куда едем?" />
+          </div>
+
+          <div class="search__field">
+            <img src="images/calendar-icon.svg" alt="" class="search__icon" />
+            <input type="text" class="search__input" value="05.03.2023" />
+          </div>
+
+          <div class="search__field">
+            <img src="images/calendar-icon.svg" alt="" class="search__icon" />
+            <input type="text" class="search__input" value="05.03.2023" />
+          </div>
+
+          <div class="search__field search__field--people">
+            <select class="search__select">
+              <option>1 человек</option>
+              <option>2 человека</option>
+              <option>3 человека</option>
+              <option>4 человека</option>
+            </select>
+          </div>
+        </form>
+
+        <button type="submit" class="btn-price">Узнать стоимость</button>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
