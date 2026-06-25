@@ -32,7 +32,7 @@ function Navbar() {
           className="pointer-events-none absolute -top-2.5 left-1.5 w-6 rotate-6"
         />
         <span className="text-lg font-semibold tracking-tight text-white">
-          <span className="font-bold text-purple-brand">travel</span>insurance
+          <span className="font-bold text-purple-brand">trip</span> страхование
         </span>
       </a>
 
